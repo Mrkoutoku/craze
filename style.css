@@ -1,0 +1,363 @@
+@media screen and (min-width:480px) and (max-width:599px) {
+    /*　画面サイズが480px以下の場合ここの記述が適用される　*/
+}
+
+body {
+    width: 1540px;
+}
+
+.footer {
+    height: 70px;
+    width: 1540px;
+    background: radial-gradient( rgb(53, 17, 58), 40%, #440b30);
+    position: fixed;
+}
+
+.footer-logo {
+    float: left;
+    padding: 15px;
+    font-size: 30px;
+    font-family: Noto Serif KR;
+    color: aliceblue;
+}
+
+.footer-list {
+    float: right;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    color: aliceblue;
+    float: right;
+}
+
+.btn,
+a.btn {
+    color: #fff;
+    background-color: #a800eb;
+    padding: 5px;
+}
+
+.btn:hover,
+a.btn:hover {
+    color: #fff;
+    background: #a800eb;
+}
+
+a.color {
+    border-radius: 100vh;
+}
+
+.header {
+    background: #f342b5;
+    width: 1540px;
+    height: 730px;
+}
+
+.top {
+    text-align: center;
+    color: aliceblue;
+    font-size: 180px;
+    font-weight: 10;
+    position: absolute;
+    left: 400px;
+    top: 230px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.introduce {
+    opacity: 1;
+}
+
+.sub1 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 50px;
+    top: 220px;
+    left: 500px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.sub2 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 115px;
+    top: 370px;
+    left: 420px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.item {
+    background: linear-gradient(#ee10a0, 20%, rgb(157, 2, 247));
+    height: 2430px;
+    width: 1540px;
+    position: absolute;
+}
+
+.itemBackground {
+    position: absolute;
+    background-image: url(../../img/ミッキー背景ほんまの完成.png);
+    background-repeat: repeat;
+    opacity: 0.2;
+    top: 731;
+    height: 2430px;
+    width: 1540px;
+}
+
+.item1 {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.item2 {
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+
+.item3 {
+    position: absolute;
+    top: 770px;
+    left: 200px;
+}
+
+.item4 {
+    position: absolute;
+    top: 1200px;
+    left: 900px;
+}
+
+.paragraph1 {
+    position: absolute;
+    color: aliceblue;
+    top: 255px;
+    left: 950px;
+    font-size: 22px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: bold;
+}
+
+.paragraph2 {
+    position: absolute;
+    color: aliceblue;
+    top: 900px;
+    left: 800px;
+    font-size: 22px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: bold;
+}
+
+.paragraph3 {
+    position: absolute;
+    color: aliceblue;
+    top: 1500px;
+    left: 250px;
+    font-size: 22px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: bold;
+}
+
+.map {
+    position: absolute;
+    top: 2650px;
+    left: 415px;
+}
+
+.map1 {
+    top: 2000px;
+    left: 480px;
+}
+
+.last {
+    height: 70px;
+    width: 1540px;
+    background: radial-gradient( rgb(53, 17, 58), 40%, #440b30);
+    position: absolute;
+    top: 3160px;
+}
+
+.footer-logo2 {
+    float: left;
+    padding: 15px;
+    font-size: 30px;
+    font-family: Noto Serif KR;
+    color: aliceblue;
+}
+
+.footer-list2 {
+    float: right;
+}
+
+.btn1,
+a.btn1 {
+    color: #fff;
+    background-color: #f342b5;
+    padding: 5px;
+}
+
+.btn1:hover,
+a.btn1:hover {
+    color: #fff;
+    background: #f342b5;
+}
+
+a.color {
+    border-radius: 100vh;
+}
+
+@media screen and (max-width:639px) {
+    /*スマホ用のcssを記述*/
+    * {
+        float: none;
+        position: static;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    body {
+        width: 414px;
+    }
+    .top {
+        text-align: center;
+        color: aliceblue;
+        font-size: 100px;
+        font-weight: 10px;
+        position: absolute;
+        left: 0px;
+        top: 200px;
+        font-family: 'Noto Serif KR', serif;
+    }
+    .footer {
+        height: 70px;
+        width: 414px;
+        background: radial-gradient( rgb(53, 17, 58), 40%, #440b30);
+    }
+    .footer-logo {
+        float: left;
+        padding: 15px;
+        font-size: 30px;
+        font-family: Noto Serif KR;
+        color: aliceblue;
+    }
+    .footer-list {
+        float: right;
+    }
+    li {
+        list-style: none;
+        padding: 10px;
+        color: aliceblue;
+        float: right;
+    }
+    .header {
+        background: #f342b5;
+        width: 414px;
+        height: 730px;
+    }
+    .sub1 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        top: 200px;
+        left: 50px;
+        font-family: 'Noto Serif KR', serif;
+    }
+    .sub2 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 50px;
+        top: 500px;
+        left: 60px;
+        font-family: 'Noto Serif KR', serif;
+    }
+    .item {
+        background: linear-gradient(#ee10a0, 20%, rgb(157, 2, 247));
+        height: 1500px;
+        width: 414px;
+        position: absolute;
+    }
+    .itemBackground {
+        position: absolute;
+        background-image: url(../../img/ミッキー背景ほんまの完成.png);
+        background-repeat: repeat;
+        opacity: 0.2;
+        top: 731;
+        height: 1500px;
+        width: 414px;
+    }
+    .item1 {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+    .item2 {
+        position: absolute;
+        top: 120px;
+        left: 250px;
+    }
+    .item3 {
+        position: absolute;
+        top: 350px;
+        left: 100px;
+    }
+    .item4 {
+        position: absolute;
+        top: 740px;
+        left: 100px;
+    }
+    .paragraph1 {
+        position: absolute;
+        color: aliceblue;
+        top: 250px;
+        left: 70px;
+        font-size: 12px;
+        font-family: 'Noto Serif KR', serif;
+        font-weight: bold;
+    }
+    .paragraph2 {
+        position: absolute;
+        color: aliceblue;
+        top: 610px;
+        left: 40px;
+        font-size: 12px;
+        font-family: 'Noto Serif KR', serif;
+        font-weight: bold;
+    }
+    .paragraph3 {
+        position: absolute;
+        color: aliceblue;
+        top: 1040px;
+        left: 62px;
+        font-size: 12px;
+        font-family: 'Noto Serif KR', serif;
+        font-weight: bold;
+    }
+    .map {
+        display: none;
+    }
+    .map1 {
+        position: absolute;
+        top: 1940px;
+        left: 0px;
+    }
+    .last {
+        height: 70px;
+        width: 414px;
+        background: radial-gradient( rgb(53, 17, 58), 40%, #440b30);
+        position: absolute;
+        top: 2260px;
+    }
+    .footer-logo2 {
+        float: left;
+        padding: 18px;
+        font-size: 30px;
+        font-family: Noto Serif KR;
+        color: aliceblue;
+    }
+    .footer-list2 {
+        float: right;
+    }
+}
